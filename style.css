@@ -1,0 +1,49 @@
+.hero{
+    height: 100vh;
+}
+@media(min-width:768px){
+    .hero{
+        height: 70vh;
+    }
+}
+.hero-img{
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+    border: 1px solid orange;
+}
+.nav-link{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+.nav-link:hover{
+    color: orange;
+}
+a{
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 600;
+}
+.h1{
+    color: orange;
+}
+.lead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:lighter;
+}
+.why-choose-me-img{
+    width: 50%;
+    margin-left: 30%;
+    object-fit: cover;
+}
+i{
+    font-size:100px;
+    color: gray;
+}
+.card{
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
